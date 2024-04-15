@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Tony Stark Howard",
+      "email": "tony1235@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Chris Pratt",
+      "username": "Chris123",
+      "email": "chri123@gmail.com",
+      "phone": "+1 253786235"
+    },
+    {
+      "id": "4",
+      "name": "Natasha Romanoff",
+      "username": "Nat123",
+      "email": "natrom123@gmail.com",
+      "phone": "+1 238006235"
+    },
+    {
+      "id": "5",
+      "name": "Paul Rudd",
+      "username": "Paul123",
+      "email": "paul123@gmail.com",
+      "phone": "+1 2304696235"
+    },
+    {
+      "id": "6",
+      "name": "Dustin Potter",
+      "username": "Dustin123",
+      "email": "dustin123@gmail.com",
+      "phone": "+1 233463535"
+    },
+    {
+      "id": 8,
+      "name": "Sivaranjini",
+      "email": "shyv3112@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Farhana",
+      "email": "itzfarhana77@gmail.com"
+    }
+  ]
+}
