@@ -3,7 +3,7 @@
     {
       "id": "2",
       "name": "Tony Stark Howard",
-      "email": "tony1235@gmail.com"
+      "email": "tony12345@gmail.com"
     },
     {
       "id": "3",
@@ -27,21 +27,14 @@
       "phone": "+1 2304696235"
     },
     {
-      "id": "6",
-      "name": "Dustin Potter",
-      "username": "Dustin123",
-      "email": "dustin123@gmail.com",
-      "phone": "+1 233463535"
-    },
-    {
-      "id": 8,
-      "name": "Sivaranjini",
-      "email": "shyv3112@gmail.com"
-    },
-    {
-      "id": 9,
-      "name": "Farhana",
+      "id": 6,
+      "name": "Juwairiya Farhana R",
       "email": "itzfarhana77@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Sivaranjini R S",
+      "email": "shyv3112@gmail.com"
     }
   ]
 }
