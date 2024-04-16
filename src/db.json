@@ -27,14 +27,19 @@
       "phone": "+1 2304696235"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Juwairiya Farhana R",
       "email": "itzfarhana77@gmail.com"
     },
     {
       "id": 7,
-      "name": "Sivaranjini R S",
-      "email": "shyv3112@gmail.com"
+      "name": "Riya",
+      "email": "itzriya77@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Sai ",
+      "email": "saipallavi121@gmail.com"
     }
   ]
 }
