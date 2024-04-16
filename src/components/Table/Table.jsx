@@ -12,7 +12,7 @@ function Table() {
 
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/shyv3112/shyv3112-jsonrepo')
+        axios.get('http://localhost:3000/users')
         .then(res => setData(res.data))
         .catch(er => console.log(er));
     }, [])
@@ -21,7 +21,7 @@ function Table() {
     const handleSubmit = (event) => {
         event.preventDefault();
         const id = data.length + 1;
-        axios.post('https://my-json-server.typicode.com/shyv3112/shyv3112-jsonrepo', {id: id, name: name, email: email})
+        axios.post('http://localhost:3000/users', {id: id, name: name, email: email})
         .then(res => {
             window.location.reload(true);
         })
@@ -29,7 +29,7 @@ function Table() {
     }
 
     const handleEdit = (id) => {
-        axios.get('https://my-json-server.typicode.com/shyv3112/shyv3112-jsonrepo/'+id)
+        axios.get('http://localhost:3000/users/'+id)
         .then(res => {
             console.log(res.data)
             usetName(res.data.name)
@@ -40,7 +40,7 @@ function Table() {
     }
 
     const handleUpdate = () => {
-        axios.put('https://my-json-server.typicode.com/shyv3112/shyv3112-jsonrepo/'+editId, {id: editId, name: uname, email: uemail})
+        axios.put('http://localhost:3000/users/'+editId, {id: editId, name: uname, email: uemail})
         .then(res =>{
             console.log(res);
             window.location.reload();
@@ -49,7 +49,7 @@ function Table() {
     }
 
     const handleDelete = (id) => {
-        axios.delete('https://my-json-server.typicode.com/shyv3112/shyv3112-jsonrepo/'+id)
+        axios.delete('http://localhost:3000/users/'+id)
         .then(res => {
             window.location.reload();
         })
