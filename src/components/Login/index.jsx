@@ -14,7 +14,7 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://signup-login-mern.netlify.app/login/api/auth";
+			const url = "http://shyv3112.github.io/authInMern/login/api/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			window.location = "/";
