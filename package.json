@@ -1,8 +1,13 @@
 {
+  "homepage": "",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "predeploy": "npm run build"
   }
 }
