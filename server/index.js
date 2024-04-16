@@ -18,10 +18,6 @@ app.use(cors());
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 
-const dbOptions = {useNewUrlParser: true, useUnifiedTopology: true}
-mongoose.connect(process.env.DB, dbOptions)
-.then (() => console.log('DB Connected'))
-.catch (err => console.log(err))
 
 const port = process.env.PORT || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
